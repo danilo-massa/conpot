@@ -1,0 +1,10 @@
+/var/log/conpot.json {
+        daily
+        notifempty
+        rotate 7
+        missingok
+        compress
+        copytruncate
+        create 660 root root
+        dateext
+}
